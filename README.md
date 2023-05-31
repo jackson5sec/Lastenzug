@@ -6,6 +6,12 @@ The client component is implemented in C compiling down to fully position indepe
 
 During the compilation process, obfuscation is applied on assembly level by leveraging a second tool: **SpiderPIC** located in ```LastenPIC/SpiderPIC```
 
+## BuildEnv
+```
+# ubuntu22.04
+apt-get install mingw-w64 git golang make nasm
+```
+
 ## SpiderPIC
 
 The obfuscation includes:
